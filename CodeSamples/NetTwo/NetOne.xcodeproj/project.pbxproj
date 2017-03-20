@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52DD77201D40BC0D00A25B57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD771F1D40BC0D00A25B57 /* AppDelegate.swift */; };
+		52DD77221D40BC0D00A25B57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD77211D40BC0D00A25B57 /* ViewController.swift */; };
+		52DD77251D40BC0D00A25B57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DD77231D40BC0D00A25B57 /* Main.storyboard */; };
+		52DD77271D40BC0D00A25B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DD77261D40BC0D00A25B57 /* Assets.xcassets */; };
+		52DD772A1D40BC0D00A25B57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DD77281D40BC0D00A25B57 /* LaunchScreen.storyboard */; };
+		52DD77321D40BE6D00A25B57 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD77311D40BE6D00A25B57 /* Networking.swift */; };
+		52DD77341D40CDF200A25B57 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 52DD77331D40CDF200A25B57 /* Podfile */; };
+		52DD77361D40D05700A25B57 /* OutputResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD77351D40D05700A25B57 /* OutputResult.swift */; };
+		52DD777A1D48BAB400A25B57 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD77791D48BAB400A25B57 /* DataModel.swift */; };
+		52DD777C1D48BCDC00A25B57 /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD777B1D48BCDC00A25B57 /* StoreModel.swift */; };
+		9CEB86586689CF2A26C97E9A /* Pods_NetOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B3F26AE496CB2F046A9B60 /* Pods_NetOne.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29B3F26AE496CB2F046A9B60 /* Pods_NetOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DD771C1D40BC0D00A25B57 /* NetOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DD771F1D40BC0D00A25B57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52DD77211D40BC0D00A25B57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52DD77241D40BC0D00A25B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52DD77261D40BC0D00A25B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52DD77291D40BC0D00A25B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52DD772B1D40BC0D00A25B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DD77311D40BE6D00A25B57 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		52DD77331D40CDF200A25B57 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		52DD77351D40D05700A25B57 /* OutputResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputResult.swift; sourceTree = "<group>"; };
+		52DD77791D48BAB400A25B57 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		52DD777B1D48BCDC00A25B57 /* StoreModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		966471C5F5E988F2E506D4EF /* Pods-NetOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetOne/Pods-NetOne.debug.xcconfig"; sourceTree = "<group>"; };
+		D1089AD99CEC09219DC3DBFD /* Pods-NetOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetOne/Pods-NetOne.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52DD77191D40BC0D00A25B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEB86586689CF2A26C97E9A /* Pods_NetOne.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33DFE09474E96818EA7A2A91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				966471C5F5E988F2E506D4EF /* Pods-NetOne.debug.xcconfig */,
+				D1089AD99CEC09219DC3DBFD /* Pods-NetOne.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52DD77131D40BC0D00A25B57 = {
+			isa = PBXGroup;
+			children = (
+				52DD771E1D40BC0D00A25B57 /* NetOne */,
+				52DD771D1D40BC0D00A25B57 /* Products */,
+				33DFE09474E96818EA7A2A91 /* Pods */,
+				E1F1F2B7EA5CB209DAB43C30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52DD771D1D40BC0D00A25B57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DD771C1D40BC0D00A25B57 /* NetOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52DD771E1D40BC0D00A25B57 /* NetOne */ = {
+			isa = PBXGroup;
+			children = (
+				52DD77331D40CDF200A25B57 /* Podfile */,
+				52DD771F1D40BC0D00A25B57 /* AppDelegate.swift */,
+				52DD77211D40BC0D00A25B57 /* ViewController.swift */,
+				52DD77311D40BE6D00A25B57 /* Networking.swift */,
+				52DD77351D40D05700A25B57 /* OutputResult.swift */,
+				52DD77231D40BC0D00A25B57 /* Main.storyboard */,
+				52DD77261D40BC0D00A25B57 /* Assets.xcassets */,
+				52DD77281D40BC0D00A25B57 /* LaunchScreen.storyboard */,
+				52DD772B1D40BC0D00A25B57 /* Info.plist */,
+				52DD77791D48BAB400A25B57 /* DataModel.swift */,
+				52DD777B1D48BCDC00A25B57 /* StoreModel.swift */,
+			);
+			path = NetOne;
+			sourceTree = "<group>";
+		};
+		E1F1F2B7EA5CB209DAB43C30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B3F26AE496CB2F046A9B60 /* Pods_NetOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52DD771B1D40BC0D00A25B57 /* NetOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DD772E1D40BC0D00A25B57 /* Build configuration list for PBXNativeTarget "NetOne" */;
+			buildPhases = (
+				4FBDED9A037403EF507BB724 /* 📦 Check Pods Manifest.lock */,
+				52DD77181D40BC0D00A25B57 /* Sources */,
+				52DD77191D40BC0D00A25B57 /* Frameworks */,
+				52DD771A1D40BC0D00A25B57 /* Resources */,
+				57F0D3990E33F1D8470C2835 /* 📦 Embed Pods Frameworks */,
+				EF5397A8364902462396E309 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetOne;
+			productName = NetOne;
+			productReference = 52DD771C1D40BC0D00A25B57 /* NetOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52DD77141D40BC0D00A25B57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PiTechnologies;
+				TargetAttributes = {
+					52DD771B1D40BC0D00A25B57 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 52DD77171D40BC0D00A25B57 /* Build configuration list for PBXProject "NetOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52DD77131D40BC0D00A25B57;
+			productRefGroup = 52DD771D1D40BC0D00A25B57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DD771B1D40BC0D00A25B57 /* NetOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52DD771A1D40BC0D00A25B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DD772A1D40BC0D00A25B57 /* LaunchScreen.storyboard in Resources */,
+				52DD77271D40BC0D00A25B57 /* Assets.xcassets in Resources */,
+				52DD77341D40CDF200A25B57 /* Podfile in Resources */,
+				52DD77251D40BC0D00A25B57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FBDED9A037403EF507BB724 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57F0D3990E33F1D8470C2835 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetOne/Pods-NetOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF5397A8364902462396E309 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetOne/Pods-NetOne-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52DD77181D40BC0D00A25B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DD777A1D48BAB400A25B57 /* DataModel.swift in Sources */,
+				52DD77321D40BE6D00A25B57 /* Networking.swift in Sources */,
+				52DD77361D40D05700A25B57 /* OutputResult.swift in Sources */,
+				52DD77221D40BC0D00A25B57 /* ViewController.swift in Sources */,
+				52DD77201D40BC0D00A25B57 /* AppDelegate.swift in Sources */,
+				52DD777C1D48BCDC00A25B57 /* StoreModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52DD77231D40BC0D00A25B57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DD77241D40BC0D00A25B57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52DD77281D40BC0D00A25B57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DD77291D40BC0D00A25B57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52DD772C1D40BC0D00A25B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52DD772D1D40BC0D00A25B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52DD772F1D40BC0D00A25B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966471C5F5E988F2E506D4EF /* Pods-NetOne.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pitechnologies.NetOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52DD77301D40BC0D00A25B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1089AD99CEC09219DC3DBFD /* Pods-NetOne.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pitechnologies.NetOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52DD77171D40BC0D00A25B57 /* Build configuration list for PBXProject "NetOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DD772C1D40BC0D00A25B57 /* Debug */,
+				52DD772D1D40BC0D00A25B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DD772E1D40BC0D00A25B57 /* Build configuration list for PBXNativeTarget "NetOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DD772F1D40BC0D00A25B57 /* Debug */,
+				52DD77301D40BC0D00A25B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52DD77141D40BC0D00A25B57 /* Project object */;
+}
